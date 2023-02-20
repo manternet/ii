@@ -1,21 +1,26 @@
-# WS-ePro Config By WildyDev21
+# WS-ePro Config
 # ============================================================
 # Please do not try to change / modif this config
 # This config is tag to xray if you modified this 
 # Xray will Error / Crash
 # ============================================================
-# (C) Copyright 2022-2023 By WildyDev21
+# (C) Copyright 2022-2023
 
 # // Start Config
 verbose: 0
 listen:
 
-# // WebSocket NonTLS
+# // NonTLS
 - target_host: 127.0.0.1
   target_port: 22
-  listen_port: 2082
+  listen_port: 2095
 
-# // WebSocket TLS
+# // TLS
 - target_host: 127.0.0.1
   target_port: 22
-  listen_port: 2083
+  listen_port: 2096
+
+# // Ovpn
+- target_host: 127.0.0.1
+  target_port: 22
+  listen_port: 2096
